@@ -69,7 +69,7 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol
-        git clone "https://github.com/KFERMercer/OpenWrt/tree/master/package/kferm/luci-app-smartinfo" package/"luci-app-smartinfo"
+        git clone "https://github.com/KFERMercer/OpenWrt/tree/master/package/kferm/luci-app-smartinfo/" package/"luci-app-smartinfo"
         #git clone "your_github_link" package/"your_folder_name"      
 
     #- name: Import external feeds - JerryKuKu Argon
