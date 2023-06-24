@@ -63,9 +63,8 @@ jobs:
         echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
         echo "src-git Openclash https://github.com/vernesong/OpenClash" >> ./feeds.conf.default
         echo "src-git PassWall https://github.com/xiaorouji/openwrt-passwall" >> ./feeds.conf.default
-        echo "src-git HelloWorld https://github.com/fw876/helloworld" >> ./feeds.conf.default
-        echo "src-git smartinfo https://github.com/iamaluckyguy/luci-app-smartinfo" >> ./feeds.conf.default
-        echo "src-git freifunk https://github.com/freifunk/openwrt-packages.git" >> ./feeds.conf.default
+        #echo "src-git smartinfo https://github.com/iamaluckyguy/luci-app-smartinfo" >> ./feeds.conf.default
+        echo "src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git" >> ./feeds.conf.default
         echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> ./feeds.conf.default
     - name: Update & Install feeds
       working-directory: ./openwrt
